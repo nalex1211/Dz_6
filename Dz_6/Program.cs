@@ -18,4 +18,3 @@ foreach (var item in info)
     Console.WriteLine($"Publishing house Adress: {item?.PublishingHouse?.Adress}\n");
 }
 
-

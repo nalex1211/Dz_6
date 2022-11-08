@@ -4,9 +4,9 @@ namespace Dz_6.JSONClasses;
 
 internal class ContentJSON
 {
-    //[JsonIgnore]
+    [JsonIgnore]
     public int PublishingHouseId { get; init; }
-    //[JsonPropertyName("Name")]
+    //[JsonPropertyName("name")]
     public string? Title { get; init; }
     public PublishingHouseJSON? PublishingHouse { get; init; }
 }
